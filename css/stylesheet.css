@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "SFKingston-Light";
+  src: url("../fonts/SF Kingston Light.otf");
+  font-size: 1em;
+}
+@font-face {
+  font-family: "Biko";
+  src: url("../fonts/Biko_Regular.otf");
+  font-size: 1em;
+}
+
+header{
+  width: 100%;
+  height: 104px;
+  background-color: #555555;
+}
+
+header #topo h2{
+  font-family: 'SFKingston-Light';
+  font-size: 48px;
+  color: #FFF;
+}header #topo h4{
+  font-family: 'Biko';
+  float: right;
+  display: block;
+  color: #FFF;
+  margin-top: -43px;
+  margin-right: 147px;
+  font-size: 24px;
+}
+body{
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+}
+
+section{
+  margin-top: 128px;
+  display: grid;
+
+}
+
+#elements{
+  width: 100%;
+}
+
+#menu{
+  width: 100%;
+  display: block;
+  float: left;
+  margin-right: -30px;
+}
+#menu a{
+  text-decoration: none;
+  color: #FFF;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: -40px;
+  text-align: center;
+}
+#squares-1, #squares-2, #squares-3, #squares-4{
+  height: 180px;
+  width: 300px;
+  background-color: #9CCCCC;
+  text-align: center;
+  font-family: 'Biko';
+  font-size: 24px;
+  display: block;
+
+}
+
+#squares-1, #squares-3{
+  float: left;
+  margin-left: 182px;
+}
+
+#squares-2, #squares-4{
+  float: right;
+  margin-right: 475px;
+}
+
+#squares-4{
+  margin-top: 22px;
+}
+
+#squares-3{
+  margin-top: 22px;
+}
+
+#playlist{
+  float: right;
+  display: block;
+  margin-top: -380px;
+  margin-right: 78px;
+
+}
